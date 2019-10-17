@@ -1,0 +1,4 @@
+praw
+discord.py
+tinydb
+python-dotenv

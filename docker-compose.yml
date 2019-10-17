@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  redditbot:
+    build: .
+    restart: always
+    env_file:
+      - ".env"
+    volumes:
+      - "${PWD}/db.json:/bot/db.json"
